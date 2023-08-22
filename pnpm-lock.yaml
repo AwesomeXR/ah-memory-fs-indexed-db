@@ -1,0 +1,104 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  ah-logger:
+    specifier: ^3.2.7
+    version: 3.2.7
+  ah-memory-fs:
+    specifier: ^1.0.18
+    version: 1.0.18
+
+devDependencies:
+  '@types/lodash':
+    specifier: ^4.14.192
+    version: 4.14.197
+  '@types/path-browserify':
+    specifier: ^1.0.0
+    version: 1.0.0
+  typescript:
+    specifier: ^5.0.3
+    version: 5.1.6
+
+packages:
+
+  /@types/lodash@4.14.197:
+    resolution: {integrity: sha512-BMVOiWs0uNxHVlHBgzTIqJYmj+PgCo4euloGF+5m4okL3rEYzM2EEv78mw8zWSMM57dM7kVIgJ2QDvwHSoCI5g==}
+    dev: true
+
+  /@types/path-browserify@1.0.0:
+    resolution: {integrity: sha512-XMCcyhSvxcch8b7rZAtFAaierBYdeHXVvg2iYnxOV0MCQHmPuRRmGZPFDRzPayxcGiiSL1Te9UIO+f3cuj0tfw==}
+    dev: true
+
+  /ah-event-bus@4.0.14:
+    resolution: {integrity: sha512-Jge9oUwcVO/F/Q0mRq+AKQUa/dRuZzyOIecwAs6I8SexmmEwUAXzpl4Ke1B0pHScME6dNZIMe4jwy3PQtCTfig==}
+    dev: false
+
+  /ah-logger@3.2.7:
+    resolution: {integrity: sha512-+YNPmrdchESDWIpy6VrZIQ/cz6HdaRQ8cCt718M3apjgxISzLOTZcA/FFx1Y3Dgmdvz/4g/CKSN9fapcqNwBKg==}
+    dependencies:
+      sprintf-js: 1.1.2
+    dev: false
+
+  /ah-memory-fs@1.0.18:
+    resolution: {integrity: sha512-C1K/CtgVxZw2uHQJJcJJ56rjQ5ODqnAZuJLoV+78SeaFwPVxZh1z4cWsp/O2VXez+GaDxuqRj9dn0/ZTMrURIg==}
+    dependencies:
+      ah-event-bus: 4.0.14
+      ah-logger: 3.2.7
+      ah-pure-md5: 1.0.1
+      ah-tree-helper: 2.0.6
+      lodash: 4.17.21
+      lru_map: 0.4.1
+      minimatch: 8.0.4
+      path-browserify: 1.0.1
+    dev: false
+
+  /ah-pure-md5@1.0.1:
+    resolution: {integrity: sha512-9kQ2TASy7p3jQa/TP4z7ryLFyMaZlWikcpD2nFUmbbmro4lI0iqFjEHRli247UOBz+Knw2zBCHLH1JbDUv7MnA==}
+    dev: false
+
+  /ah-tree-helper@2.0.6:
+    resolution: {integrity: sha512-1qyU2p/vs4fue1cgkpXN7iJ/OwGW1cKU2pb9Y3JwuZwRwsfoP88Go56JlWpeQ9EPGoVkKEyRGLLMQyX+p0rVcQ==}
+    dev: false
+
+  /balanced-match@1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+    dev: false
+
+  /brace-expansion@2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+    dependencies:
+      balanced-match: 1.0.2
+    dev: false
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  /lru_map@0.4.1:
+    resolution: {integrity: sha512-I+lBvqMMFfqaV8CJCISjI3wbjmwVu/VyOoU7+qtu9d7ioW5klMgsTTiUOUp+DJvfTTzKXoPbyC6YfgkNcyPSOg==}
+    dev: false
+
+  /minimatch@8.0.4:
+    resolution: {integrity: sha512-W0Wvr9HyFXZRGIDgCicunpQ299OKXs9RgZfaukz4qAW/pJhcpUfupc9c+OObPOFueNy8VSrZgEmDtk6Kh4WzDA==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: false
+
+  /path-browserify@1.0.1:
+    resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
+    dev: false
+
+  /sprintf-js@1.1.2:
+    resolution: {integrity: sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==}
+    dev: false
+
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
