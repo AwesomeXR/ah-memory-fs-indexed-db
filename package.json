@@ -1,6 +1,6 @@
 {
   "name": "ah-memory-fs-indexed-db",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "files": [
     "dist"
   ],
@@ -9,7 +9,6 @@
   "scripts": {
     "ci": "prettier --check src && tsc -p tsconfig.json --noEmit",
     "build": "tsc -p tsconfig.json --outDir dist",
-    
     "release": "npm run ci && npm run build && release-it"
   },
   "author": "concefly@foxmail.com",
